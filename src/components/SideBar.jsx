@@ -1,13 +1,13 @@
 import Home  from './Home'
 import Artist from './Artist'
 import Album from './Album'
-import { Container, Row ,Col} from 'react-bootstrap'
+import { Row ,Col} from 'react-bootstrap'
+import logo from '../assets/logo.png'
 
-
-const MyNavBar = ()=>{
+const SideBar = ()=>{
 
     return(
-    <Container className= "main-container">
+    
         <Row>
             <Col>
                 <div id="wrapper">
@@ -15,7 +15,7 @@ const MyNavBar = ()=>{
                         <div className="menu-nav">
                         <div className="links1-nav">
                             <div id="logo">
-                            <img src="logo.png" width="150px" height="60px" alt="..."/>
+                            <img src={logo} width="120px" height="60px" alt="..."/>
                             </div>
                             </div>
                         <div className="links-nav">
@@ -51,19 +51,21 @@ const MyNavBar = ()=>{
                         </div>
                     
                         <Row>
-                            <div>
-                                <div className="links-small-nav">
+                            <Col>
+                            <div className="links-small-nav">
                                     <button className="signup-button"type="submit">SIGN UP</button>
                                     <button className="login-button"type="submit"> LOGIN </button>
-                                </div>
-
-                            </div> 
+                             </div>
+                            
+                            
+                            </Col>
+                            
                         </Row>
                     </div>
                 </div>  
             </Col>
         </Row>
-    </Container>  
+   
     )
        
        
@@ -72,4 +74,4 @@ const MyNavBar = ()=>{
 
 }
 
-export default MyNavBar
+export default SideBar

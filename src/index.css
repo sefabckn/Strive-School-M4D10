@@ -98,13 +98,14 @@ hr{
   border-radius: 50px;
   align-items: center;
   position: absolute;
-  bottom: 100px;
-  left:23px
 }
 .login-button{
-  border-radius: 50px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 50px;
+  align-items: center;
+  position: absolute;
 }
 
 .links-small-nav{
