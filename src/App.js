@@ -13,8 +13,8 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <SideBar/>
       <TopBar />
+      <SideBar />
      {/*  <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path='/album' element= {<Album />} />

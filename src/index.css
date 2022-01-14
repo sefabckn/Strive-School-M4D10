@@ -8,8 +8,8 @@ font-family: 'Gotham Book', sans-serif;
 font-family: 'Gotham Ultra', sans-serif; */
 
 body{
-    color: #9b9595;
-    background-color: #151727;
+    color: #9b9595 !important;
+    background-color: #151727 !important;
 }
 .main-container{
   position: absolute;
@@ -95,6 +95,7 @@ hr{
     width: 100px;
     height: 30px;
     display: inline-flex;
+    align-items: center;
     flex-direction: row;
     justify-content: center;
     border-radius: 50px;
@@ -106,6 +107,7 @@ hr{
     height: 30px;
     display: inline-flex;
     flex-direction: row;
+    align-content: center;
     justify-content: center;
     border-radius: 50px;
     
@@ -359,4 +361,15 @@ input.slider{
 #audio{
     opacity: 0.8;
     align-items: center;
+}
+#topbar-comp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+    margin: 1%;
+    padding-left: 10px;
+    color:whitesmoke !important;
+    cursor: pointer;
 }
