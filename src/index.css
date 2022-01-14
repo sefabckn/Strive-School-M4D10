@@ -64,7 +64,7 @@ body{
     padding-bottom: 10px;
 }
 
-#navbar p{
+#navbar > p{
     display: flex;
     color: #f0f0f0;
     text-align: center;
